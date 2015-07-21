@@ -1,0 +1,14 @@
+{
+  "name": "speak-audio-json",
+  "version": "1.0.0",
+  "description": "JSON generator for speak audio files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fatuk",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^3.10.0"
+  }
+}
