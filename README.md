@@ -12,3 +12,11 @@
 * `outputFilename = 'audio.json'` - output file name
 * `idCounter = 9993` - starting ID
 
+## Format for audio files naming
+
+**3-2-1.mp3**
+
+| 3           | 2             | 1      |
+| ---         | ---           | ---    |
+| Task number | phraze number | Person |
+
