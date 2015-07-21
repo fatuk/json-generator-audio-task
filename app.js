@@ -5,7 +5,7 @@
 		tasks = [],
 		uniqueTasks = [],
 		audioJSON = [],
-		outputFilename = 'my.json',
+		outputFilename = 'audio.json',
 		idCounter = 9993;
 
 	fs.readdir('./audio/', function (err, files) {
@@ -22,23 +22,23 @@
 		// Task loop
 		for (var k = 0; k < uniqueTasks.length; k++) {
 			audioJSON.push({
-				"id": idCounter,
-				"title": "Говорение",
-				"time": 300,
-				"tasksInSession": 1,
-				"passingScore": 100,
-				"description": "Просто говорите на русском и все будет хорошо.",
-				"isValid": true,
-				"tasks": [{
-					"id": 1,
-					"type": "speak",
-					"trial": true,
-					"title": "Прослушайте диалог и попробуйте запомнить его содержание",
-					"text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-					"audioTask": [],
-					"images": [],
-					"answers": [],
-					"validAnswers": []
+				'id': idCounter,
+				'title': 'Говорение',
+				'time': 300,
+				'tasksInSession': 1,
+				'passingScore': 100,
+				'description': 'Просто говорите на русском и все будет хорошо.',
+				'isValid': true,
+				'tasks': [{
+					'id': 1,
+					'type': 'speak',
+					'trial': true,
+					'title': 'Прослушайте диалог и попробуйте запомнить его содержание',
+					'text': 'После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.',
+					'audioTask': [],
+					'images': [],
+					'answers': [],
+					'validAnswers': []
 				}]
 			});
 			idCounter++;
@@ -48,7 +48,7 @@
 				var parsed = files[i].split('-'),
 					task = parsed[0],
 					dialog = parsed[1],
-					person = parsed[2];
+					person = parsed[2].split('.')[0];
 
 				if (task == uniqueTasks[k]) {
 					var odd = i,
@@ -70,9 +70,6 @@
 							}
 						}
 					}
-
-
-
 				}
 			}
 		}
@@ -85,7 +82,7 @@
 			if (err) {
 				console.log(err);
 			} else {
-				console.log("JSON saved to " + outputFilename);
+				console.log('JSON saved to ' + outputFilename);
 			}
 		});
 	}
