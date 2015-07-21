@@ -8,8 +8,6 @@
 		outputFilename = 'my.json',
 		idCounter = 1,
 		tasksOfPart = {};
-	tasksOfPart.audioTask = {};
-
 
 	fs.readdir('./audio/', function (err, files) {
 		// Get uniq tasks
@@ -46,7 +44,6 @@
 			});
 			idCounter++;
 
-			tasksOfPart.audioTask = [];
 			// Dialogs loop
 			for (var i = 0; i < files.length; i++) {
 				var parsed = files[i].split('-'),
@@ -55,25 +52,18 @@
 					person = parsed[2];
 
 				if (task == uniqueTasks[k]) {
-					// console.log(files[i]);
-					if (i % 2) {
+					var dialog = {};
+
+					if ((i + 1) % 2) {
 						audioJSON[k].tasks[0].audioTask.push({
-							speaker2: files[i]
-						});
-					} else {
-						audioJSON[k].tasks[0].audioTask.push({
-							speaker1: files[i]
+							speaker1: files[i],
+							speaker2: files[i + 1]
 						});
 					}
 				}
 			}
-			console.log(k, 'Questions', tasksOfPart);
-			// audioJSON[k].tasks[0].test = tasksOfPart;
-			console.log('**********');
-			console.log(audioJSON[k].tasks[0].audioTask);
 		}
 
-		console.log(audioJSON[0].tasks[0].audioTask);
 		writeJSON(audioJSON);
 	});
 
