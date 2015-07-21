@@ -6,8 +6,7 @@
 		uniqueTasks = [],
 		audioJSON = [],
 		outputFilename = 'my.json',
-		idCounter = 1,
-		tasksOfPart = {};
+		idCounter = 9993;
 
 	fs.readdir('./audio/', function (err, files) {
 		// Get uniq tasks
@@ -52,14 +51,28 @@
 					person = parsed[2];
 
 				if (task == uniqueTasks[k]) {
-					var dialog = {};
+					var odd = i,
+						even = i + 1;
 
-					if ((i + 1) % 2) {
-						audioJSON[k].tasks[0].audioTask.push({
-							speaker1: files[i],
-							speaker2: files[i + 1]
-						});
+					if (files[even]) {
+						if (task === files[even].split('-')[0]) {
+							if (dialog % 2) {
+								audioJSON[k].tasks[0].audioTask.push({
+									speaker1: files[odd],
+									speaker2: files[even]
+								});
+							}
+						} else {
+							if (dialog % 2) {
+								audioJSON[k].tasks[0].audioTask.push({
+									speaker1: files[odd]
+								});
+							}
+						}
 					}
+
+
+
 				}
 			}
 		}

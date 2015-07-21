@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 9993,
         "title": "Говорение",
         "time": 300,
         "tasksInSession": 1,
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 9994,
         "title": "Говорение",
         "time": 300,
         "tasksInSession": 1,
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 9995,
         "title": "Говорение",
         "time": 300,
         "tasksInSession": 1,
@@ -110,8 +110,7 @@
                         "speaker2": "3-8-2.mp3"
                     },
                     {
-                        "speaker1": "3-9-1.mp3",
-                        "speaker2": "4-1-1.mp3"
+                        "speaker1": "3-9-1.mp3"
                     }
                 ],
                 "images": [],
@@ -121,7 +120,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 9996,
         "title": "Говорение",
         "time": 300,
         "tasksInSession": 1,
@@ -137,16 +136,19 @@
                 "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
                 "audioTask": [
                     {
-                        "speaker1": "4-2-2.mp3",
-                        "speaker2": "4-3-1.mp3"
+                        "speaker1": "4-1-1.mp3",
+                        "speaker2": "4-2-2.mp3"
                     },
                     {
-                        "speaker1": "4-4-2.mp3",
-                        "speaker2": "4-5-1.mp3"
+                        "speaker1": "4-3-1.mp3",
+                        "speaker2": "4-4-2.mp3"
                     },
                     {
-                        "speaker1": "4-6-2.mp3",
-                        "speaker2": "4-7-1.mp3"
+                        "speaker1": "4-5-1.mp3",
+                        "speaker2": "4-6-2.mp3"
+                    },
+                    {
+                        "speaker1": "4-7-1.mp3"
                     }
                 ],
                 "images": [],
@@ -156,7 +158,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 9997,
         "title": "Говорение",
         "time": 300,
         "tasksInSession": 1,
