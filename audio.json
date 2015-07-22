@@ -1,195 +1,149 @@
-[
-    {
-        "id": 9993,
-        "title": "Говорение",
-        "time": 300,
-        "tasksInSession": 1,
-        "passingScore": 100,
-        "description": "Просто говорите на русском и все будет хорошо.",
-        "isValid": true,
-        "tasks": [
-            {
-                "id": 1,
-                "type": "speak",
-                "trial": true,
-                "title": "Прослушайте диалог и попробуйте запомнить его содержание",
-                "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-                "audioTask": [
-                    {
-                        "speaker1": "1-1-1.mp3",
-                        "speaker2": "1-2-2.mp3"
-                    },
-                    {
-                        "speaker1": "1-3-1.mp3",
-                        "speaker2": "1-4-2.mp3"
-                    },
-                    {
-                        "speaker1": "1-5-1.mp3",
-                        "speaker2": "1-6-2.mp3"
-                    },
-                    {
-                        "speaker1": "1-7-1.mp3",
-                        "speaker2": "1-8-2.mp3"
-                    }
-                ],
-                "images": [],
-                "answers": [],
-                "validAnswers": []
-            }
-        ]
-    },
-    {
-        "id": 9994,
-        "title": "Говорение",
-        "time": 300,
-        "tasksInSession": 1,
-        "passingScore": 100,
-        "description": "Просто говорите на русском и все будет хорошо.",
-        "isValid": true,
-        "tasks": [
-            {
-                "id": 1,
-                "type": "speak",
-                "trial": true,
-                "title": "Прослушайте диалог и попробуйте запомнить его содержание",
-                "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-                "audioTask": [
-                    {
-                        "speaker1": "2-1-1.mp3",
-                        "speaker2": "2-2-2.mp3"
-                    },
-                    {
-                        "speaker1": "2-3-1.mp3",
-                        "speaker2": "2-4-2.mp3"
-                    },
-                    {
-                        "speaker1": "2-5-1.mp3",
-                        "speaker2": "2-6-2.mp3"
-                    },
-                    {
-                        "speaker1": "2-7-1.mp3",
-                        "speaker2": "2-8-2.mp3"
-                    }
-                ],
-                "images": [],
-                "answers": [],
-                "validAnswers": []
-            }
-        ]
-    },
-    {
-        "id": 9995,
-        "title": "Говорение",
-        "time": 300,
-        "tasksInSession": 1,
-        "passingScore": 100,
-        "description": "Просто говорите на русском и все будет хорошо.",
-        "isValid": true,
-        "tasks": [
-            {
-                "id": 1,
-                "type": "speak",
-                "trial": true,
-                "title": "Прослушайте диалог и попробуйте запомнить его содержание",
-                "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-                "audioTask": [
-                    {
-                        "speaker1": "3-1-1.mp3",
-                        "speaker2": "3-2-2.mp3"
-                    },
-                    {
-                        "speaker1": "3-3-1.mp3",
-                        "speaker2": "3-4-2.mp3"
-                    },
-                    {
-                        "speaker1": "3-5-1.mp3",
-                        "speaker2": "3-6-2.mp3"
-                    },
-                    {
-                        "speaker1": "3-7-1.mp3",
-                        "speaker2": "3-8-2.mp3"
-                    },
-                    {
-                        "speaker1": "3-9-1.mp3"
-                    }
-                ],
-                "images": [],
-                "answers": [],
-                "validAnswers": []
-            }
-        ]
-    },
-    {
-        "id": 9996,
-        "title": "Говорение",
-        "time": 300,
-        "tasksInSession": 1,
-        "passingScore": 100,
-        "description": "Просто говорите на русском и все будет хорошо.",
-        "isValid": true,
-        "tasks": [
-            {
-                "id": 1,
-                "type": "speak",
-                "trial": true,
-                "title": "Прослушайте диалог и попробуйте запомнить его содержание",
-                "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-                "audioTask": [
-                    {
-                        "speaker1": "4-1-1.mp3",
-                        "speaker2": "4-2-2.mp3"
-                    },
-                    {
-                        "speaker1": "4-3-1.mp3",
-                        "speaker2": "4-4-2.mp3"
-                    },
-                    {
-                        "speaker1": "4-5-1.mp3",
-                        "speaker2": "4-6-2.mp3"
-                    },
-                    {
-                        "speaker1": "4-7-1.mp3"
-                    }
-                ],
-                "images": [],
-                "answers": [],
-                "validAnswers": []
-            }
-        ]
-    },
-    {
-        "id": 9997,
-        "title": "Говорение",
-        "time": 300,
-        "tasksInSession": 1,
-        "passingScore": 100,
-        "description": "Просто говорите на русском и все будет хорошо.",
-        "isValid": true,
-        "tasks": [
-            {
-                "id": 1,
-                "type": "speak",
-                "trial": true,
-                "title": "Прослушайте диалог и попробуйте запомнить его содержание",
-                "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
-                "audioTask": [
-                    {
-                        "speaker1": "5-1-1.mp3",
-                        "speaker2": "5-2-2.mp3"
-                    },
-                    {
-                        "speaker1": "5-3-1.mp3",
-                        "speaker2": "5-4-2.mp3"
-                    },
-                    {
-                        "speaker1": "5-5-1.mp3",
-                        "speaker2": "5-6-2.mp3"
-                    }
-                ],
-                "images": [],
-                "answers": [],
-                "validAnswers": []
-            }
-        ]
-    }
-]
+{
+    "id": 9993,
+    "title": "Говорение",
+    "time": 300,
+    "taskInSession": 1,
+    "passingScore": 100,
+    "description": "Просто говорите на русском и все будет хорошо.",
+    "isValid": true,
+    "tasks": [
+        {
+            "id": 9994,
+            "type": "speak",
+            "trial": true,
+            "title": "Прослушайте диалог и попробуйте запомнить его содержание",
+            "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
+            "audioTask": [
+                {
+                    "speaker1": "1-1-1.mp3",
+                    "speaker2": "1-2-2.mp3"
+                },
+                {
+                    "speaker1": "1-3-1.mp3",
+                    "speaker2": "1-4-2.mp3"
+                },
+                {
+                    "speaker1": "1-5-1.mp3",
+                    "speaker2": "1-6-2.mp3"
+                },
+                {
+                    "speaker1": "1-7-1.mp3",
+                    "speaker2": "1-8-2.mp3"
+                }
+            ],
+            "images": [],
+            "answers": [],
+            "validAnswers": []
+        },
+        {
+            "id": 9995,
+            "type": "speak",
+            "trial": true,
+            "title": "Прослушайте диалог и попробуйте запомнить его содержание",
+            "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
+            "audioTask": [
+                {
+                    "speaker1": "2-1-1.mp3",
+                    "speaker2": "2-2-2.mp3"
+                },
+                {
+                    "speaker1": "2-3-1.mp3",
+                    "speaker2": "2-4-2.mp3"
+                },
+                {
+                    "speaker1": "2-5-1.mp3",
+                    "speaker2": "2-6-2.mp3"
+                },
+                {
+                    "speaker1": "2-7-1.mp3",
+                    "speaker2": "2-8-2.mp3"
+                }
+            ],
+            "images": [],
+            "answers": [],
+            "validAnswers": []
+        },
+        {
+            "id": 9996,
+            "type": "speak",
+            "trial": true,
+            "title": "Прослушайте диалог и попробуйте запомнить его содержание",
+            "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
+            "audioTask": [
+                {
+                    "speaker1": "3-1-1.mp3",
+                    "speaker2": "3-2-2.mp3"
+                },
+                {
+                    "speaker1": "3-3-1.mp3",
+                    "speaker2": "3-4-2.mp3"
+                },
+                {
+                    "speaker1": "3-5-1.mp3",
+                    "speaker2": "3-6-2.mp3"
+                },
+                {
+                    "speaker1": "3-7-1.mp3",
+                    "speaker2": "3-8-2.mp3"
+                },
+                {
+                    "speaker1": "3-9-1.mp3"
+                }
+            ],
+            "images": [],
+            "answers": [],
+            "validAnswers": []
+        },
+        {
+            "id": 9997,
+            "type": "speak",
+            "trial": true,
+            "title": "Прослушайте диалог и попробуйте запомнить его содержание",
+            "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
+            "audioTask": [
+                {
+                    "speaker1": "4-1-1.mp3",
+                    "speaker2": "4-2-2.mp3"
+                },
+                {
+                    "speaker1": "4-3-1.mp3",
+                    "speaker2": "4-4-2.mp3"
+                },
+                {
+                    "speaker1": "4-5-1.mp3",
+                    "speaker2": "4-6-2.mp3"
+                },
+                {
+                    "speaker1": "4-7-1.mp3"
+                }
+            ],
+            "images": [],
+            "answers": [],
+            "validAnswers": []
+        },
+        {
+            "id": 9998,
+            "type": "speak",
+            "trial": true,
+            "title": "Прослушайте диалог и попробуйте запомнить его содержание",
+            "text": "После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.",
+            "audioTask": [
+                {
+                    "speaker1": "5-1-1.mp3",
+                    "speaker2": "5-2-2.mp3"
+                },
+                {
+                    "speaker1": "5-3-1.mp3",
+                    "speaker2": "5-4-2.mp3"
+                },
+                {
+                    "speaker1": "5-5-1.mp3",
+                    "speaker2": "5-6-2.mp3"
+                }
+            ],
+            "images": [],
+            "answers": [],
+            "validAnswers": []
+        }
+    ]
+}
