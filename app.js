@@ -4,9 +4,18 @@
 		_ = require('lodash'),
 		tasks = [],
 		uniqueTasks = [],
-		audioJSON = [],
+		audioJSON = {
+			'id': 9993,
+			'title': 'Говорение',
+			'time': 300,
+			'taskInSession': 1,
+			'passingScore': 100,
+			'description': 'Просто говорите на русском и все будет хорошо.',
+			'isValid': true,
+			'tasks': []
+		},
 		outputFilename = 'audio.json',
-		idCounter = 9993;
+		idCounter = 9994;
 
 	fs.readdir('./audio/', function (err, files) {
 		// Get uniq tasks
@@ -21,25 +30,16 @@
 
 		// Task loop
 		for (var k = 0; k < uniqueTasks.length; k++) {
-			audioJSON.push({
+			audioJSON.tasks.push({
 				'id': idCounter,
-				'title': 'Говорение',
-				'time': 300,
-				'tasksInSession': 1,
-				'passingScore': 100,
-				'description': 'Просто говорите на русском и все будет хорошо.',
-				'isValid': true,
-				'tasks': [{
-					'id': 1,
-					'type': 'speak',
-					'trial': true,
-					'title': 'Прослушайте диалог и попробуйте запомнить его содержание',
-					'text': 'После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.',
-					'audioTask': [],
-					'images': [],
-					'answers': [],
-					'validAnswers': []
-				}]
+				'type': 'speak',
+				'trial': true,
+				'title': 'Прослушайте диалог и попробуйте запомнить его содержание',
+				'text': 'После прослушивания диалога вам будет предложено принять участие в роли одной из сторон.',
+				'audioTask': [],
+				'images': [],
+				'answers': [],
+				'validAnswers': []
 			});
 			idCounter++;
 
@@ -57,14 +57,14 @@
 					if (files[even]) {
 						if (task === files[even].split('-')[0]) {
 							if (dialog % 2) {
-								audioJSON[k].tasks[0].audioTask.push({
+								audioJSON.tasks[k].audioTask.push({
 									speaker1: files[odd],
 									speaker2: files[even]
 								});
 							}
 						} else {
 							if (dialog % 2) {
-								audioJSON[k].tasks[0].audioTask.push({
+								audioJSON.tasks[k].audioTask.push({
 									speaker1: files[odd]
 								});
 							}
